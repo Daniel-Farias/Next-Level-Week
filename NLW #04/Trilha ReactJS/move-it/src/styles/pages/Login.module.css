@@ -1,0 +1,104 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: var(--blue);
+}
+
+.container .logoSection  {
+  flex: 60%;
+}
+
+.container .formSection  {
+  flex: 40%;
+}
+
+.logoSection img {
+  width: 80%;
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: auto;
+  padding: 200px 0 400px 0;
+}
+
+.formSection > img {
+  width: fit-content;
+}
+
+.formSection strong {
+  font-size: 1.85rem;
+  color: var(--white);
+  margin-top: 100px;
+}
+
+.githubContainer {
+  width: auto;
+  height: auto;
+}
+
+.githubContainer header {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: 30px 0 40px;
+}
+
+.githubContainer header p {
+  width: 200px;
+  margin-left: 1rem;
+  color: var(--white);
+}
+
+.githubContainer main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 420px;
+  max-height: 80px;
+}
+
+.githubContainer main input {
+  width: 100%;
+  height: 100%;
+  max-width: 340px;
+  max-height: 80px;
+  background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);
+  border-radius: 5px 0px 0px 5px;
+  border: 0;
+  color: var(--white);
+  padding: 20px 30px;
+  font-size: 1.25rem;
+}
+
+.githubContainer main input::placeholder {
+  color: var(--text-highlight);
+}
+
+.githubContainer main input:hover {
+  border: 1.5px solid #414AA3;
+}
+
+.githubContainer main button {
+  width: 100%;
+  height: 100%;
+  max-width: 80px;
+  max-height: 80px;
+
+  background: var(--green);
+  border-radius: 0px 5px 5px 0px;
+  border: 0;
+}
+
+.githubContainer main button:disabled {
+  background: var(--blue-dark);
+}
+
+

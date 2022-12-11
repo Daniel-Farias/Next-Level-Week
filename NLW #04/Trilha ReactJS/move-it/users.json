@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Diego Fernandes",
+    "level": 43,
+    "desafios": 127,
+    "xp": 154000
+  },
+  {
+    "name": "Tiago Luchtenberg",
+    "level": 37,
+    "desafios": 98,
+    "xp": 117000
+  },
+  {
+    "name": "Cleiton Souza",
+    "level": 37,
+    "desafios": 97,
+    "xp": 98000
+  },
+  {
+    "name": "Robson Marques",
+    "level": 37,
+    "desafios": 84,
+    "xp": 77400
+  },
+  {
+    "name": "Rodrigo Terron",
+    "level": 37,
+    "desafios": 65,
+    "xp": 52000
+  },
+  {
+    "name": "Abraão Sena",
+    "level": 37,
+    "desafios": 25,
+    "xp": 26000
+  }
+]
